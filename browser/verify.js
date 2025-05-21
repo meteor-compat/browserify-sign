@@ -3,7 +3,7 @@
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer;
 var BN = require('bn.js');
-var EC = require('elliptic').ec;
+var EC = require('../elliptic/lib/elliptic').ec;
 var parseKeys = require('parse-asn1');
 var curves = require('./curves.json');
 
